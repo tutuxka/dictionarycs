@@ -18,8 +18,8 @@ def convert_file(input_file, output_file):
         file.write('\n'.join(converted_words))
 
 # 定义输入文件夹路径和输出文件夹路径
-input_folder = 'work'
-output_folder = 'cs'
+input_folder = 'work/'
+output_folder = 'cs/'
 
 # 遍历文件夹中的所有文件
 for file_name in os.listdir(input_folder):
