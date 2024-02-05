@@ -92,7 +92,7 @@ def getWordPy(data, GPy_Table):
     ret = ''
     while pos < len(data):
         index = struct.unpack('H', bytes([data[pos], data[pos + 1]]))[0]
-        ret += "'" + GPy_Table[index]
+        ret += GPy_Table[index]
         pos += 2
     return ret
 
