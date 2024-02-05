@@ -162,7 +162,7 @@ def scel2txt(file_name):
 
 
 def single_file():
-    input_path = r'world/123.scel'  # 输入scel所在文件夹路径
+    input_path = r'word/123.scel'  # 输入scel所在文件夹路径
     output_path = r'cs/123.txt'  # 输出txt所在文件夹路径
     # 转换scel为txt
     GTable = scel2txt(input_path)
