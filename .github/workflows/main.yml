@@ -15,7 +15,7 @@ jobs:
       - run: wget https://github.com/studyzy/imewlconverter/releases/download/v3.1.0/imewlconverter_Linux.tar.gz
       - run: tar -zxvf imewlconverter_Linux.tar.gz
       - run: cd publish
-      - run: ./ImeWlConverterCmd -h
+      - run: ImeWlConverterCmd -h
 
       - name: Archive files
         uses: actions/upload-artifact@v2
