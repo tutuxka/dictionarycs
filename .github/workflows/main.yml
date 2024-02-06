@@ -15,7 +15,7 @@ jobs:
       - run: python main.py
       - run: wget https://github.com/studyzy/imewlconverter/releases/download/v3.1.0/imewlconverter_Linux.tar.gz
       - run: tar -zxvf imewlconverter_Linux.tar.gz
-      - run: dotnet publish/ImeWlConverterCmd.dll -i:word word/1234.txt -o:gboard cs/gg.txt
+      - run: dotnet publish/ImeWlConverterCmd.dll -i:word cs/output.txt -o:gboard cs/gg.txt
 
       - name: Archive files
         uses: actions/upload-artifact@v2
